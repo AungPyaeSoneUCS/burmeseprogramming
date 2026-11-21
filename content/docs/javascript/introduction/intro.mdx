@@ -1,0 +1,119 @@
+---
+title: "ဒီ Course မှာ ဘာတွေ ပါဝင်မလဲ?"
+description: "Interactive JavaScript Course မိတ်ဆက်"
+---
+import { Aside } from '@astrojs/starlight/components';
+
+<Aside title="မင်္ဂလာပါ">
+**JavaScript** ကမ္ဘာကြီးမှ နွေးထွေးစွာ ကြိုဆိုပါတယ်။ 🎉  
+Web Development လောကမှာ JavaScript မသိရင် မဖြစ်သလောက်ပါပဲ။ ဒီ Course ကနေစပြီး JavaScript ရဲ့ အခြေခံ သဘောတရားတွေကနေ လက်တွေ့ လုပ်ငန်းခွင်မှာ အသုံးချနိုင်တဲ့အထိ အဆင့်ဆင့် သင်ကြားပေးသွားမှာ ဖြစ်ပါတယ်။
+</Aside>
+
+## JavaScript ဆိုတာ ဘာလဲ?
+
+JavaScript ဆိုတာ **Webpage တွေကို အသက်ဝင် လှုပ်ရှားလာစေတဲ့ Programming Language** တစ်ခု ဖြစ်ပါတယ်။
+
+ရိုးရိုးရှင်းရှင်း ဥပမာ ပေးရရင်:
+* **HTML** ဆိုတာ အိမ်တစ်လုံးရဲ့ **အုတ်မြစ်နဲ့ တိုင်တွေ (Structure)** လိုပါပဲ။ (ခေါင်းစဉ်တွေ၊ စာပိုဒ်တွေ၊ ပုံတွေ ပါဝင်ပါတယ်)
+* **CSS** ဆိုတာက အိမ်ကို သုတ်ထားတဲ့ **ဆေးရောင်နဲ့ အလှဆင်မှု (Decorations)** တွေပါ။ (အရောင်တွေ၊ ဒီဇိုင်းတွေ၊ နေရာချထားမှုတွေ)
+* **JavaScript** ကတော့ အဲ့ဒီအိမ်မှာ တပ်ဆင်ထားတဲ့ **လျှပ်စစ်မီးနဲ့ ရေပိုက်စနစ် (Functionality)** နဲ့ တူပါတယ်။ (မီးခလုတ် နှိပ်လိုက်ရင် မီးလင်းလာမယ်၊ ဘုံဘိုင်ကို လှည့်လိုက်ရင် ရေကျလာမယ် စသဖြင့်ပေါ့)
+
+<Aside type="tip">
+JavaScript ရှိမှသာ Website တစ်ခုဟာ User ရဲ့ လုပ်ဆောင်ချက်တွေကို တုံ့ပြန် (Interact) နိုင်မှာ ဖြစ်ပါတယ်။ ဥပမာ - Button ကို နှိပ်လိုက်ရင် ပုံပြောင်းသွားတာမျိုး၊ Form ဖြည့်ပြီး Submit လုပ်တဲ့အခါ အချက်အလက်တွေကို စစ်ဆေးတာမျိုးတွေ ဖြစ်ပါတယ်။
+</Aside>
+
+## DOM Manipulation ဆိုတာ ဘာလဲ?
+
+ဒီ Course ရဲ့ အဓိက အာရုံစိုက်သွားမယ့် အပိုင်းကတော့ **DOM Manipulation** ပဲ ဖြစ်ပါတယ်။
+
+"DOM Manipulation" ဆိုတဲ့ စကားလုံးက နားလည်ရ ခက်သယောင် ရှိပေမယ့်၊ တကယ့်လက်တွေ့မှာတော့ ရိုးရှင်းပါတယ်။
+**JavaScript ကို အသုံးပြုပြီး Webpage (HTML) ပေါ်မှာ ရှိနေတဲ့ အရာတွေကို လှမ်းပြီး ပြုပြင်ပြောင်းလဲခြင်း** လို့ မှတ်ယူနိုင်ပါတယ်။
+
+ဥပမာအားဖြင့် -
+* ရေးထားတဲ့ စာသား (Text) တွေကို ပြောင်းလဲပစ်မယ်။
+* အရောင် (Color) တွေကို ပြောင်းမယ်။
+* လိုအပ်ရင် Element အသစ်တွေကို ထပ်ထည့်မယ်, ဖျက်ပစ်မယ်။
+
+ဒီအကြောင်းတွေကို နောက်ပိုင်း သင်ခန်းစာတွေမှာ လက်တွေ့ စမ်းသပ်ရင်းနဲ့ သေချာပေါက် နားလည်သွားမှာမို့လို့ လောလောဆယ် စိတ်မပူပါနဲ့။
+
+import CodePlayground from '@/components/mdx/CodePlayground';
+import LessonCompletion from '@/components/mdx/LessonCompletion';
+
+<CodePlayground client:idle title="JavaScript & DOM Manipulation Playground" />
+
+<LessonCompletion client:idle />
+
+## ဒီ Course ကို ဘယ်လို ပုံစံမျိုးနဲ့ သွားမလဲ?
+
+ဒီ Course ဟာ စာဖတ်ရုံ သက်သက်မဟုတ်ဘဲ **Interactive** ဖြစ်အောင် စီစဉ်ထားပါတယ်။
+* **ဖတ်မယ်:** နားလည်ရခက်တဲ့ Concept တွေကို လွယ်ကူရှင်းလင်းတဲ့ မြန်မာစကားနဲ့ ရှင်းပြပေးထားပါမယ်။
+* **စမ်းမယ်:** သင်ခန်းစာ (Lesson) တစ်ခု ပြီးဆုံးတိုင်း လက်တွေ့ စမ်းသပ်ကြည့်ရမယ့် လေ့ကျင့်ခန်းတွေ ပါဝင်ပါမယ်။
+* **တည်ဆောက်မယ်:** Project အသေးစားလေးတွေ (ဥပမာ - အကြိမ်အရေအတွက် မှတ်တဲ့ Counter၊ လုပ်စရာတွေ မှတ်တဲ့ To-Do List) ကို ကိုယ်တိုင် ဖန်တီးကြည့်ရပါမယ်။
+
+ကဲ... စလိုက်ကြရအောင်!
+
+## Introduction
+
+- Section 1: What This Course Covers
+- Section 2: Tools & Environment Setup
+
+## Module 1: Fundamentals
+
+- Section 3: What Is JavaScript?
+- Section 4: Variables & Data Types
+- Section 5: Operators
+- Section 6: Strings & Numbers
+- Section 7: Interactive Section
+
+## Module 2: Control Flow
+
+- Section 8: Conditional Statements
+- Section 9: Switch Statements
+- Section 10: Loops
+- Section 11: Interactive Section
+
+## Module 3: Arrays & Objects
+
+- Section 12: Arrays
+- Section 13: Objects
+- Section 14: Arrays of Objects
+- Section 15: Interactive Section
+
+## Module 4: Functions
+
+- Section 16: What Are Functions?
+- Section 17: Parameters & Return Values
+- Section 18: Arrow Functions
+- Section 19: Interactive Section
+
+## Module 5: Introduction to the DOM
+
+- Section 20: What Is the DOM?
+- Section 21: Selecting Elements
+- Section 22: Interactive Section
+
+## Module 6: DOM Manipulation Basics
+
+- Section 23: Changing Content
+- Section 24: Changing Styles
+- Section 25: Working with Attributes
+- Section 26: Interactive Section
+
+## Module 7: Events & Event Handling
+
+- Section 27: What Are Events?
+- Section 28: Event Listeners
+- Section 29: Event Flow
+- Section 30: Interactive Section
+
+## Module 8: DOM Projects (Hands-On)
+
+- Section 31: Project 1: Interactive Counter
+- Section 32: Project 2: To-Do List
+- Section 33: Project 3: Theme Switcher
+
+## Module 9: Best Practices & Next Steps
+
+- Section 34: Writing Clean JavaScript
+- Section 35: Debugging Basics
+- Section 36: What to Learn Next

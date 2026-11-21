@@ -1,0 +1,51 @@
+{
+  "id": "/",
+  "name": "Myanmar Programming Learning Platform",
+  "short_name": "Learning Platform",
+  "description": "Myanmar Programming Learning Platform - မြန်မာဘာသာဖြင့် programming သင်ခန်းစာများ",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#111827",
+  "background_color": "#111827",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "start_url": "/",
+  "scope": "/",
+  "lang": "my",
+  "dir": "ltr",
+  "categories": ["education", "books", "productivity"],
+  "shortcuts": [
+    {
+      "name": "သင်ခန်းစာများဆီသို့",
+      "short_name": "Lessons",
+      "description": "Go to lessons",
+      "url": "/",
+      "icons": [{ "src": "/android-chrome-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
